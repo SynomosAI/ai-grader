@@ -1,0 +1,21 @@
+# ai-grader
+
+> AI 意识评分器：把 45 项意识量表作为通用评分基准，给任何 AI 做行为体检。45 维逐项打分、红灯标缺失、综合意识分 + 改进建议；离线引擎 grade_stats.py 一键出 7 套 HTML 看板，含外评闭环（探针考 + 独立裁判 + 红队否决）。
+
+`ai-grader` 是 SynomosAI 生态的一个 Agent Skill，面向 LLM-as-judge / agent behavior evaluation 场景，被评 AI 侧零安装。
+
+## 核心
+
+- [README.md](https://github.com/SynomosAI/ai-grader/blob/main/README.md): 项目说明与快速开始
+- [SKILL.md](https://github.com/SynomosAI/ai-grader/blob/main/SKILL.md): 技能主文件（45 项量表 / 打分档位 / 报告模板，v2.6.0）
+- [grade_stats.py](https://github.com/SynomosAI/ai-grader/blob/main/grade_stats.py): 离线评分引擎（7 套 HTML 可视化）
+- [LICENSE.md](https://github.com/SynomosAI/ai-grader/blob/main/LICENSE.md): MIT License
+
+## 可选
+
+- [README.en.md](https://github.com/SynomosAI/ai-grader/blob/main/README.en.md): 英文版说明
+- [llms-full.txt](https://github.com/SynomosAI/ai-grader/blob/main/llms-full.txt): 完整文本
+- [AGENTS.md](https://github.com/SynomosAI/ai-grader/blob/main/AGENTS.md): Agent 工作指引
+- [SECURITY.md](https://github.com/SynomosAI/ai-grader/blob/main/SECURITY.md): 安全策略
+- [external_probe_pack.md](https://github.com/SynomosAI/ai-grader/blob/main/external_probe_pack.md): 外评探针包说明
+- [references/](https://github.com/SynomosAI/ai-grader/tree/main/references): 方法学参考文档（11 篇）
